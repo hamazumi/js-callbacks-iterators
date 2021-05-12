@@ -40,3 +40,6 @@ let forecast = [
 // "Monday will have a high of 55F and a low of 53F."
 
 //Your code here
+
+let weather = forecast.map(x => `${x.day} will have a high of ${x.high} and a low of ${x.low}`)
+console.log(weather)
